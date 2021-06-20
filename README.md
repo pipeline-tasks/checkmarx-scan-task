@@ -1,1 +1,1 @@
-# checkmarx-scan-task
+# inspect-task
