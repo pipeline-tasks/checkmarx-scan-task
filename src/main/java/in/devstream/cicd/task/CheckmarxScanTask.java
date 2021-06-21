@@ -5,11 +5,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
 
 @Slf4j
-public class InspectTask extends PipelineTask {
+public class CheckmarxScanTask extends PipelineTask {
 
     private ApplicationArguments input;
 
-    public InspectTask(ApplicationArguments args) {
+    public CheckmarxScanTask(ApplicationArguments args) {
         this.input = args;
     }
 

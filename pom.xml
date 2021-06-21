@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>in.devstream.cicd</groupId>
-    <artifactId>inspect-task</artifactId>
+    <artifactId>checkmarx-scan-task</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>inspect-task</name>
-    <description>Inspect Task</description>
+    <name>checkmarx-scan-task</name>
+    <description>Checkmarx Scan Task</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
