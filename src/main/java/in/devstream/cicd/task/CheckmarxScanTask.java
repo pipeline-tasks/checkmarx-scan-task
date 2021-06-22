@@ -16,16 +16,16 @@ public class CheckmarxScanTask extends PipelineTask {
     @Override
     public void execute() {
 
-        log.info("executing the inspect task");
+        log.info("Executing checkmarx task");
     }
 
     @Override
     public void onInit() {
-        log.info("overriding on init!");
+        log.info("Initializing task...");
     }
 
     @Override
     public void onFinalize() {
-        log.info("overriding on finalize");
+        log.info("Cleaning up resources...");
     }
 }
